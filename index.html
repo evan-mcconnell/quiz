@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <meta charset="utf-8">
+    <title>Pet Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>What is your spirit common pet?</h1>
+      <div id="quizinputs">
+        <form class="form-group">
+          <label for="Q1">In your childhood, did you prefer to consume dog food or cat food?</label>
+          <select id="Q1">
+            <option value="dogfood">Dog Food</option>
+            <option value="catfood">Cat Food</option>
+          </select> <br>
+          <label for="Q2">Did you have a cat or dog growing up?</label>
+          <select id="Q2">
+            <option value="dogpet">Dog</option>
+            <option value="catpet">Cat</option>
+            <option value="nopet">I didn't have a pet on the list</option>
+          </select> <br>
+          <label for="Q3">Are you allergic to dogs or cats?</label>
+          <select id="Q3">
+            <option value="dogallergy">Dog</option>
+            <option value="catallergy">Cat</option>
+            <option value="noallergy">I am not allergic</option>
+          </select> <br>
+          <button type="submit" class="btn-success">Click Here to see your spirit pet!</button>
+
+        </form>
+        <p id="dog">DOG</p>
+        <p id="cat">CAT</p>
+      </div>
+    </div>
+  </body>
+</html>
